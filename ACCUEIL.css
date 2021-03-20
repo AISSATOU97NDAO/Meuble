@@ -1,0 +1,237 @@
+*{
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	font-family: 'Akaya Telivigala', cursive;
+}
+.DanaCreation img{
+  margin-left: 15px;
+  width: 100px;
+  height: 30px; }
+
+.site-header {
+  position: relative;
+
+  text-decoration: none; }
+
+.site-header__end {
+  display: flex;
+  align-items: center; }
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  @media (min-width: 800px) {
+    .site-header__wrapper {
+      padding-top: 0;
+      padding-bottom: 0; } }
+@media (min-width: 800px) {
+  .nav__wrapper {
+    display: flex; } }
+
+
+.nav__item a {
+  display: block;
+  padding: 1.5rem 0.5rem; 
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 200;
+   color: black;
+
+}
+.nav__toggle {
+  display: none; }
+  @media (max-width: 800px) {
+    .nav__toggle {
+      display: block;
+      position: absolute;
+      right: 1rem;
+      top: 1rem; } }
+
+
+
+.s2{
+	text-align: center;
+	font size: 40px;
+	font-family: cursive;
+    font-weight: 200;
+    letter-spacing:30px;
+    color: black;
+    background:  #d9f0f7;
+
+}
+.c2{
+	
+	width: 1365;
+	display: flex;
+	padding-top: 20px;
+
+
+}
+.s1a {
+	display: block;
+}
+.s1 img{
+	width: 1365px;
+	height: 400px;
+
+}
+.s1 span{
+	font-size: 15px;
+	
+}
+
+.child-left{
+	width: 25%;
+	margin-right: 10px; 
+	background-color:white;
+	text-align: center;
+	font-size: 30px;
+
+}
+.child-left:hover{
+	background-color: #d9f0f7;
+
+}
+.child-left img{
+	width: 340px;
+	height: 300px;
+}
+.child-left h2{
+	text-decoration: underline;
+	text-align: center;
+
+}
+.child-left span{
+	text-decoration: none;
+	color: grey;
+	text-align: bottom;
+	
+}
+.child-center{
+	width: 50%;
+	background-color:white;
+	
+
+}
+.child-center{
+	background-image: url("61.jpg");
+
+}
+.child-rigth:hover{
+	background-color: #d9f0f7;
+
+}
+.child-center img{	
+	width: 660px;
+	height: 393px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.c-slider{
+	position: relative;
+	width: 660px;
+	animation-name: slider;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.child-center .c-slider img{
+	width: 660px;
+	float: left;
+}
+/*-webkit-moz- */@keyframes slider{
+	0%, 10%, 20%, 30%, 35% { right: 0px; }
+	35%, 40%, 50%, 60%, 65% { left: 1335px; }
+	65%, 70%, 80%, 90%, 100% { right: 2670px; }
+}
+
+.child-center span{
+	font-weight: 200;
+	font-size: 30px;
+	text-align: center;
+}
+.child-rigth{
+	width: 330px;
+	margin-left: 12px;
+	background-color:white;
+	text-align: center;
+	font-size: 30px;
+}
+.child-rigth img{
+	width: 340px;
+	height: 300px;
+	
+}
+
+.child-rigth h2{
+	text-decoration: underline;
+}
+.child-rigth span{
+	color: grey;
+	text-align: bottom;
+	text-align: center;
+}
+.s3{
+	width: 100%;
+	display: flex;
+
+	padding-top: 5%;
+}
+.s3 img{
+	width: 95%;
+	height: 90%;
+	padding-left:5%;
+	padding-right: 5%;
+
+}
+.p1{
+	font-size: 3rem;
+	font-weight: 900;
+	text-align: center;
+	border: double;
+	background:  #d9f0f7;
+}
+.E1{
+	padding-left: 36%;
+	padding-top: 3%;
+
+}
+.s4{
+	width: 100%;
+	display: flex;
+}
+.s4 img{
+	width: 95%;
+	height: 90%;
+	padding-left:5%;
+}
+.s5{
+	width: 100%;
+	display: flex;
+}
+.s5 img{
+	width: 95%;
+	height: 90%;
+	padding-left:5%;
+
+
+}
+.fin{
+	background: black;
+	height: 50%;
+	color: white;
+	padding-top:3%;
+	margin-top: 5%;
+}
+.t1{
+	padding-bottom: 5%;
+	margin-left: 5%;
+}   
+

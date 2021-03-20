@@ -1,0 +1,90 @@
+*{
+  font-family: 'Akaya Telivigala', cursive;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.DanaCreation img{
+  margin-left: 15px;
+  width: 100px;
+  height: 25px;
+   }
+
+.site-header {
+  text-decoration: none;
+  padding-top: -3%;
+  margin-right:-3%; }
+
+.site-header__end {
+  display: flex;
+  align-items: center; }
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  @media (min-width: 800px) {
+    .site-header__wrapper {
+      padding-top: 4;
+      padding-bottom: 0; } }
+@media (min-width: 800px) {
+  .nav__wrapper {
+    display: flex; } }
+
+@media (max-width: 799px) {4  .nav__wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-color:;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+    .nav__wrapper.active {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0); } }
+
+.nav__item a {
+  display: block;
+  padding: 0.5rem 0.5rem; 
+   text-decoration: none;
+   font-size: 17px;
+   color: black;
+
+}
+
+.nav__toggle {
+  display: none; }
+  @media (max-width: 800px) {
+    .nav__toggle {
+      display: block;
+      position: absolute;
+      right: 1rem;
+      top: 1rem; } }
+
+.child-left h2{
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+
+
+}
+.fin{
+  background: black;
+  height: 129%;
+  width: 105%;
+  color: white;
+  padding-top:5%;
+  margin-top: 5%;
+}
+.t1{
+  padding-bottom: 10%;
+  
+}   
